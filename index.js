@@ -75,7 +75,8 @@ const run = async () => {
         const today = new Date();
         const updatedJson = [...jsonData, ...newRoles];
         const updatedJsonData = JSON.stringify(updatedJson);
-        if (['Henryschein', 'SalesForce', 'NVidia'].includes(company.name)) {
+        // if (['Henryschein', 'SalesForce', 'NVidia'].includes(company.name)) {
+        if (true) {
             for(const newRole of newRoles) {
                 newRecords.push(
                     {
