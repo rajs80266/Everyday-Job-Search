@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Henryschein",
+        "link": "https://henryschein.wd1.myworkdayjobs.com/wday/cxs/henryschein/External_Careers/jobs",
+        "request": {
+            "body": "{\"appliedFacets\":{\"locationCountry\":[\"bc33aa3152ec42d4995f4791a106ed09\"],\"timeType\":[\"43578da58b43103f55613a8f411a00a0\"]},\"limit\":20,\"offset\":0,\"searchText\":\"software+engineer\"}"
+        }
+    }, {
+        "name": "SalesForce",
+        "link": "https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs",
+        "request": {
+            "body": "{\"appliedFacets\":{\"CF_-_REC_-_LRV_-_Job_Posting_Anchor_-_Country_from_Job_Posting_Location_Extended\":[\"bc33aa3152ec42d4995f4791a106ed09\"],\"jobFamilyGroup\":[\"14fa3452ec7c1011f90d0002a2100000\"],\"timeType\":[\"0e28126347c3100fe3b402cf26290000\"]},\"limit\":20,\"offset\":0,\"searchText\":\"\"}"
+        }
+    }, {
+        "name": "NVidia",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+        "request": {
+            "body": "{\"appliedFacets\":{\"timeType\":[\"5509c0b5959810ac0029943377d47364\"],\"locationHierarchy1\":[\"2fcb99c455831013ea52fb338f2932d8\"],\"jobFamilyGroup\":[\"0c40f6bd1d8f10ae43ffaefd46dc7e78\"],\"workerSubType\":[\"ab40a98049581037a3ada55b087049b7\"]},\"limit\":20,\"offset\":0,\"searchText\":\"\"}"
+        }
+    }, {
+        "name": "Airbus",
+        "link": "https://ag.wd3.myworkdayjobs.com/wday/cxs/ag/Airbus/jobs",
+        "request": {
+            "body": "{\"appliedFacets\":{\"jobFamilyGroup\":[\"f5811cef9cb5018463377f3f550a1bf2\"],\"workerSubType\":[\"f5811cef9cb501a69768a71d470a6d15\"],\"locationCountry\":[\"bc33aa3152ec42d4995f4791a106ed09\"]},\"limit\":20,\"offset\":0,\"searchText\":\"Software+Engineer\"}"
+        }
+    }, {
+        "name": "Exact Science",
+        "link": "https://exactsciences.wd1.myworkdayjobs.com/wday/cxs/exactsciences/Exact_Sciences/jobs",
+        "request": {
+            "body": "{\"appliedFacets\":{\"locationCountry\":[\"bc33aa3152ec42d4995f4791a106ed09\"],\"workerSubType\":[\"5d0b453b757701139d53d4db802b140b\"]},\"limit\":20,\"offset\":0,\"searchText\":\"Software+Engineer\"}"
+        }
+    }, {
+        "name": "Zoetis",
+        "link": "https://zoetis.wd5.myworkdayjobs.com/wday/cxs/zoetis/zoetis/jobs",
+        "request": {
+            "body": "{\"appliedFacets\":{\"workerSubType\":[\"db6ba69418ae1031251aeb647cb12378\",\"db6ba69418ae1031251aedca32112379\"]},\"limit\":20,\"offset\":0,\"searchText\":\"software+Engineer\"}"
+        }
+    }, {
+        "name": "Aveva",
+        "link": "https://aveva.wd3.myworkdayjobs.com/wday/cxs/aveva/AVEVA_careers/jobs",
+        "request": {
+            "body": "{\"appliedFacets\":{\"locationCountry\":[\"bc33aa3152ec42d4995f4791a106ed09\"],\"jobFamilyGroup\":[\"b48467c234171001f80c738746a40000\",\"b48467c234171001f71defb99f450000\",\"e9bca035b1a61000fb16def661ec0000\"],\"workerSubType\":[\"dcfa1dc945c3011ae3410252a31aa30b\"]},\"limit\":20,\"offset\":0,\"searchText\":\"Software+Engineer\"}"
+        }
+    }, {
+        "name": "Orion",
+        "link": "https://orionadvisor.wd1.myworkdayjobs.com/wday/cxs/orionadvisor/Orion_Careers/jobs",
+        "request": {
+            "body": "{\"appliedFacets\":{},\"limit\":20,\"offset\":0,\"searchText\":\"software+engineer\"}"
+        }
+    }, {
+        "name": "Adobe",
+        "link": "https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs",
+        "request": {
+            "body": "{\"appliedFacets\":{\"timeType\":[\"262714769a02100a80d2a64ac4e040c0\"],\"jobFamilyGroup\":[\"591af8b812fa10737af39db3d96eed9f\",\"591af8b812fa10737b43a1662896f01c\",\"591af8b812fa10737b0e880e0e3eeee9\"],\"workerSubType\":[\"3ba4ecdf4893100b2f8d06b0870c6c8b\"],\"locationCountry\":[\"bc33aa3152ec42d4995f4791a106ed09\"]},\"limit\":20,\"offset\":0,\"searchText\":\"\"}"
+        }
+    }, {
+        "name": "Enbridge",
+        "link": "https://enbridge.wd3.myworkdayjobs.com/wday/cxs/enbridge/enbridge_careers/jobs",
+        "request": {
+            "body": "{\"appliedFacets\":{\"locationCountry\":[\"bc33aa3152ec42d4995f4791a106ed09\"],\"jobFamilyGroup\":[\"53edd10a7dab01342238b8c95a1b072d\"]},\"limit\":20,\"offset\":0,\"searchText\":\"\"}"
+        }
+    }
+]
