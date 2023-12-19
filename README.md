@@ -1,9 +1,11 @@
-For open workday pages with applied filters
+For open pages with applied filters
+
+**Workday**
 1. Open Network in developer tools
 2. Search for "/jobs"
 3. Request URL in Headers (https://......myworkdayjobs.com/wday/cxs/..../jobs) is a link
 4. View Source for Payload is {"appliedFacets":{},"limit":20,"offset":0,....} is body
-5. Add link and body to workday companies.json in following format
+5. Add link and body to workdayCompanies.json in following format
    {
         "name": "COMPANY NAME",
         "link": "LINK",
@@ -13,11 +15,11 @@ For open workday pages with applied filters
    }
 6. Run node index.js
 
-For open eightfold pages with applied filters
+**Eightfold**
 1. Open Network in developer tools
 2. Search for "/jobs?domain=nutanix.com"
 3. Request URL in Headers is a link
-4. Add link and body to workday companies.json in following format
+4. Add link and body to EightFoldCompanies.json in following format
    {
         "name": "COMPANY NAME",
         "link": "LINK"
