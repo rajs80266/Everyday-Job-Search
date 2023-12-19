@@ -1,10 +1,14 @@
 const fs = require('fs');
 
+const workdayCompanyNames = [];
+const eightFoldCompanyNames = [];
+
 const getResponse = async (link, request, name) => {
     const output = await fetch(link, request);
     console.log("Fetch Successful for", name);
     return output.json();
 };
+
 
 const getWorkdayCompanies = () => {
     const wordDayCompanies = [];
@@ -21,11 +25,31 @@ const getWorkdayCompanies = () => {
             path: "jobPostings",
             identifier: "bulletFields.0"
         });
+        workdayCompanyNames.push(company.name);
     });
     return wordDayCompanies;
 }
 
-const companies = getWorkdayCompanies();
+const getEightFoldCompanies = () => {
+    const eightFoldCompanies = [];
+    const data = fs.readFileSync('EightFoldCompanies.json', 'utf8');
+    jsonData = JSON.parse(data);
+    jsonData.forEach(company => {
+        eightFoldCompanies.push({
+            ...company,
+            request: {
+                "headers": {"content-type": "application/json"},
+                "method": "GET"
+            },
+            path: "positions",
+            identifier: "id"
+        });
+        eightFoldCompanyNames.push(company.name);
+    });
+    return eightFoldCompanies;
+}
+
+const companies = [...getWorkdayCompanies(), ...getEightFoldCompanies()];
 
 const getId = (json, path) => {
     let result = json;
@@ -75,16 +99,30 @@ const run = async () => {
         const today = new Date();
         const updatedJson = [...jsonData, ...newRoles];
         const updatedJsonData = JSON.stringify(updatedJson);
-        // if (['Henryschein', 'SalesForce', 'NVidia'].includes(company.name)) {
-        if (true) {
+        if (workdayCompanyNames.includes(company.name)) {
             for(const newRole of newRoles) {
                 newRecords.push(
                     {
                         company: company.name,
                         role: newRole.title.replace(new RegExp(',', 'g'), '-'),
                         id: newRole.bulletFields[0],
-                        viewedAt: today.getDate() + '-' + today.getMonth(),
-                        notes: newRole.postedOn
+                        viewedAt: today.getDate() + '-' + today.getMonth() + '-' + today.getFullYear(),
+                        url: '-',
+                        notes: newRole.postedOn,
+                    }
+                )
+            }
+        }
+        if (eightFoldCompanyNames.includes(company.name)) {
+            for(const newRole of newRoles) {
+                newRecords.push(
+                    {
+                        company: company.name,
+                        role: newRole.name.replace(new RegExp(',', 'g'), '-'),
+                        id: newRole.id,
+                        viewedAt: today.getDate() + '-' + today.getMonth() + '-' + today.getFullYear(),
+                        url: newRole.canonicalPositionUrl,
+                        notes: newRole.job_description,
                     }
                 )
             }
