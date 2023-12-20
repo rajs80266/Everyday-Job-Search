@@ -59,5 +59,11 @@
         "request": {
             "body": "{\"appliedFacets\":{\"locationCountry\":[\"bc33aa3152ec42d4995f4791a106ed09\"],\"jobFamilyGroup\":[\"53edd10a7dab01342238b8c95a1b072d\"]},\"limit\":20,\"offset\":0,\"searchText\":\"\"}"
         }
+    }, {
+        "name": "Zillow",
+        "link": "https://zillow.wd5.myworkdayjobs.com/wday/cxs/zillow/Zillow_Group_External/jobs",
+        "request": {
+            "body": "{\"appliedFacets\":{\"timeType\":[\"156fb9a2f01c10be203b6e91581a01d1\"],\"workerSubType\":[\"156fb9a2f01c10bed80e140d011a9559\"],\"jobFamilyGroup\":[\"a90eab1aaed6105e8dd41df427a82ee6\"],\"locations\":[\"bf3166a9227a01f8b514f0b00b147bc9\"]},\"limit\":20,\"offset\":0,\"searchText\":\"\"}"
+        }
     }
 ]

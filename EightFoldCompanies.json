@@ -1,6 +1,72 @@
 [
     {
         "name": "Nutanix",
-        "link": "https://nutanix.eightfold.ai/api/apply/v2/jobs?domain=nutanix.com&profile=&query=Software%20Engineer&location=United%20States%2CUnited%20States&pid=19488834&domain=nutanix.com&sort_by=relevance&triggerGoButton=false"
+        "link": "https://nutanix.eightfold.ai/api/apply/v2/jobs?domain=nutanix.com&profile=&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "Paypal",
+        "link": "https://paypal.eightfold.ai/api/apply/v2/jobs?domain=paypal.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "Morgan Stanley",
+        "link": "https://morganstanley.eightfold.ai/api/apply/v2/jobs?domain=morganstanley.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "Booking",
+        "link": "https://booking.eightfold.ai/api/apply/v2/jobs?domain=booking.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "Qualcomm",
+        "link": "https://qualcomm.eightfold.ai/api/apply/v2/jobs?domain=qualcomm.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "Trimble",
+        "link": "https://trimble.eightfold.ai/api/apply/v2/jobs?domain=trimble.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "10xgenomics",
+        "link": "https://10xgenomics.eightfold.ai/api/apply/v2/jobs?domain=10xgenomics.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "SLB",
+        "link": "https://slb.eightfold.ai/api/apply/v2/jobs?domain=slb.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "NTT data",
+        "link": "https://nttdata.eightfold.ai/api/apply/v2/jobs?domain=nttdata.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "Climate",
+        "link": "https://climate.eightfold.ai/api/apply/v2/jobs?domain=climate.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "Medtronic",
+        "link": "https://medtronic.eightfold.ai/api/apply/v2/jobs?domain=medtronic.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "PTC",
+        "link": "https://ptc.eightfold.ai/api/apply/v2/jobs?domain=ptc.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "Chevron",
+        "link": "https://chevron.eightfold.ai/api/apply/v2/jobs?domain=chevron.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "Eaton",
+        "link": "https://eaton.eightfold.ai/api/apply/v2/jobs?domain=eaton.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "Vale",
+        "link": "https://vale.eightfold.ai/api/apply/v2/jobs?domain=vale.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "Liberty Mutual",
+        "link": "https://libertymutual.eightfold.ai/api/apply/v2/jobs?domain=libertymutual.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "Micron",
+        "link": "https://micron.eightfold.ai/api/apply/v2/jobs?domain=micron.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "Modernatx",
+        "link": "https://modernatx.eightfold.ai/api/apply/v2/jobs?domain=modernatx.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "Eight Fold",
+        "link": "https://app.eightfold.ai/api/apply/v2/jobs?domain=eightfold.ai&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "Dexcom",
+        "link": "https://dexcom.eightfold.ai/api/apply/v2/jobs?domain=dexcom.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "Go Tinder",
+        "link": "https://gotinder.eightfold.ai/api/apply/v2/jobs?domain=gotinder.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "MLP",
+        "link": "https://mlp.eightfold.ai/api/apply/v2/jobs?domain=mlp.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
+    }, {
+        "name": "Boston Scientific",
+        "link": "https://bostonscientific.eightfold.ai/api/apply/v2/jobs?domain=bostonscientific.com&query=Software%20Engineer&location=United%20States%2CUnited%20States"
     }
 ]
