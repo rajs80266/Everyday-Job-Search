@@ -25,3 +25,15 @@ For open pages with applied filters
         "link": "LINK"
    }
 5. Run node index.js
+
+**Other Companies**
+1. Open Network in developer tools
+2. Search for link proving job list in preview
+3. Copy it as fetch
+4. Add link and body to otherCompanies.json in following format
+   {
+        "name": "COMPANY NAME",
+        "link": "1st Parameter of fetch"
+        "request: "2nd Parameter of fetch"
+   }
+5. Run node index.js
